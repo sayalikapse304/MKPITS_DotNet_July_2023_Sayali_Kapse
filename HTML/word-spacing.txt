@@ -1,0 +1,6 @@
+<html>
+<body>
+<p style="word-spacing:50px;letter-spacing:5px;">
+this is word spacing</p>
+</body>
+</html>
