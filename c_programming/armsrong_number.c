@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	int num,i,sum=0;
+	int num,res=0,sum=0,i;
 	printf("\n enter no");
 	scanf("%d",&num);
-	for(i=1;i<num;i++)
+	for(res=num;num!=0;num=num/10)
 	{
-		if(num%i==0)
-		{
+		i=num%10;
+		
 			sum=sum+i*i*i;
 		}
-		if(sum==num)
-		printf("%d is armstrong number\n",num);
+		if(sum==res)
+		printf("%d is armstrong number\n",res);
 		else
-		printf("%d is not a armstrong number\n",num);
+		printf("%d is not a armstrong number\n",res);
 	}
-}
+
