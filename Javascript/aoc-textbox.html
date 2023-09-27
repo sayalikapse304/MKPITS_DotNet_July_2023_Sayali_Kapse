@@ -1,0 +1,20 @@
+<html>
+<script language="javascript">
+function area()
+{
+var radius=(document.getElementById("t1").value);
+var aoc=3.14*radius*radius;
+document.getElementById("res").innerHTML="area of circle="+aoc;
+
+var ans=2*3.14*radius;
+document.getElementById("res").innerHTML="circ of circle="+ans;
+}
+</script>
+<form name="f1">
+enter radius:<input type=text id="t1"/><br><br>
+<input type=button value="area" onclick="area();"/>
+
+<br><br>
+<span id="res">--------</span>
+</form>
+</html>
