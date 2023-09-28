@@ -1,0 +1,21 @@
+<html>
+<script language="javascript">
+function check()
+{
+var sub1=document.getElementById("t1").value;
+var sub2=document.getElementById("t2").value;
+var sub3=document.getElementById("t3").value;
+var tot=parseInt(sub1)+parseInt(sub2)+parseInt(sub3);
+ document.getElementById("res").innerHTML="total marks="+tot;
+ 
+ }
+ </script>
+ <form name="f1">
+enter subject1:<input type=text id="t1"/><br><br>
+enter subject2:<input type=text id="t2"/><br><br>
+enter subject3:<input type=text id="t3"/><br><br>
+<input type="button" value="ok" onclick="check();"/><br><br>
+<span id="res">result</span>
+</form>
+ </html>
+
