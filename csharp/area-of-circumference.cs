@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 namespace circumference
 {
     class area
@@ -16,3 +16,4 @@ namespace circumference
             Console.ReadKey();
         }
     }
+}
