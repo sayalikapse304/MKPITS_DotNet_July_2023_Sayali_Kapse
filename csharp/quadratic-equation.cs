@@ -16,7 +16,7 @@ namespace program
 
             Console.WriteLine("Input the value of c");
             c= Convert.ToInt32(Console.ReadLine());
-            res = b * b - 2 * a * c;
+            res = b * b - 4 * a * c;
             Console.WriteLine("result="+res);
             if (res != 0)
             {
