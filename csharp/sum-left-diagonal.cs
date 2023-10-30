@@ -22,7 +22,7 @@ namespace program
                 {
                     Console.Write("element - [{0}],[{1}] : ", i, j);
                     arr1[i, j] = Convert.ToInt32(Console.ReadLine());
-                    if (i !=j)
+                    if (i != j)
                     {
                         sum = sum + arr1[i, j];
                     }
@@ -38,7 +38,7 @@ namespace program
                 Console.Write("\n");
             }
 
-            Console.Write("Addition of the right Diagonal elements is :{0}\n", sum);
+            Console.Write("Addition of the left Diagonal elements is :{0}\n", sum);
         }
     }
 
