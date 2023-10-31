@@ -1,17 +1,31 @@
 ﻿using System;
-namespace rectangle
+namespace program
 {
-    class area
+    class Rectangle
     {
-        public static void Main()
+        int width;
+        int height;
+        float area;
+        public void getdata(int width, int height)
         {
-            int length,breadth,result;
-            Console.WriteLine("enetr length");
-            length= Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enetr breadth");
-            breadth = Convert.ToInt32(Console.ReadLine());
-            result = length * breadth;
-            Console.WriteLine("area of rectangle=" +result);
+            this.width = width;
+            this.height = height;
+            area = width * height;
+
+        }
+        public void displaydata()
+        {
+            Console.WriteLine("area of rectangle:" + area);
+        }
+    }
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Rectangle r = new Rectangle();
+            
+            r.getdata(5, 10);
+            r.displaydata();
             Console.ReadKey();
         }
     }
