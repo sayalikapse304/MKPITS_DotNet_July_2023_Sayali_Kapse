@@ -1,0 +1,12 @@
+create table cust(id int primary key,name varchar(30),address varchar(50))
+insert into cust values(1,'sayali','palandur')
+insert into cust values(2,'payal','lakhani')
+insert into cust values(3,'asmi','bhandara')
+insert into cust values(4,'achal','mouda')
+insert into cust values(8,'parag','nagpur')
+insert into cust values(6,'piyush','Mumbai')
+insert into cust values(9,'nikhil','delhi')
+insert into cust values(10,'pranv','palandur')
+insert into cust values(7,'asha','kawadshi')
+insert into cust values(5,'hema','sakoli')
+select * from cust
