@@ -1,0 +1,12 @@
+create table users(userid int,username varchar (20),password varchar(40),emailid varchar(60),gender varchar(20),city varchar(30),country varchar (20))
+insert into users values(1,'payal','11','123','female','Nagpur','India')
+insert into users values(2,'asmi','12','153','female','lakhani','India')
+insert into users values(3,'munni','13','1267','female','Nagpur','India')
+insert into users values(4,'achal','14','124','female','Nagpur','India')
+insert into users values(5,'parag','15','123','male','bhandar','India')
+insert into users values(6,'nikhl','16','183','male','mumbai','India')
+insert into users values(7,'swami','17','129','male','Nagpur','India')
+insert into users values(8,'kedar','18','122','male','raipur','India')
+insert into users values(9,'sayog','19','133','male','gondiya','India')
+insert into users values(10,'sami','111','176','female','devari','India')
+select * from users
