@@ -1,0 +1,10 @@
+C:\project-new\coffee_shop_project\coffee_shop_project\bin\Debug\coffee_shop_project.exe.config
+C:\project-new\coffee_shop_project\coffee_shop_project\bin\Debug\coffee_shop_project.exe
+C:\project-new\coffee_shop_project\coffee_shop_project\bin\Debug\coffee_shop_project.pdb
+C:\project-new\coffee_shop_project\coffee_shop_project\obj\Debug\coffee_shop_project.csproj.AssemblyReference.cache
+C:\project-new\coffee_shop_project\coffee_shop_project\obj\Debug\coffee_shop_project.Form1.resources
+C:\project-new\coffee_shop_project\coffee_shop_project\obj\Debug\coffee_shop_project.Properties.Resources.resources
+C:\project-new\coffee_shop_project\coffee_shop_project\obj\Debug\coffee_shop_project.csproj.GenerateResource.cache
+C:\project-new\coffee_shop_project\coffee_shop_project\obj\Debug\coffee_shop_project.csproj.CoreCompileInputs.cache
+C:\project-new\coffee_shop_project\coffee_shop_project\obj\Debug\coffee_shop_project.exe
+C:\project-new\coffee_shop_project\coffee_shop_project\obj\Debug\coffee_shop_project.pdb
